@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%; /*картинки не больше родителя */
+}
+body {
+    background-color: #20202D;
+    margin: 0;
+    color: #fff;
+    font-family: 'Roboto';
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 90%;
+    max-width: 945px;
+    margin: auto;
+}
+.section {
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+.section-title {
+    margin: 0;
+    margin-bottom: 84px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+.hero {
+    padding-top: 50px;
+    padding-bottom: 155px;
+    background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+.social-link {
+    margin-left: 20px;
+}
+.social-link:first-child {
+    margin-left: 0;
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-subtitle {
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFBB01;
+    margin-bottom: 14px;
+}
+.hero-title {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.hero-description {
+    font-style: 16px;
+    line-height: 28px;
+    max-width: 420px;
+    margin-bottom: 38px;
+}
+.button {
+    background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+    box-shadow: 0px 4px 0px #B68500;
+    border: none;
+    border-radius: 5px 5px 10px 10px;
+    padding: 24px 42px;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.hero-avatar {
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url('../foto/Avatar.jpg');
+    background-size: 370px 370px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 13px solid #fff;
+}
+.features {
+    background-color: #000000;
+}
+.features-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item {
+    flex-basis: 30%;
+    margin-bottom: 63px;
+}
+.features-image {
+    display: block;
+    margin-bottom: 22px;       
+}
+.features-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.features-text{
+    font-weight: normal;
+    font-style: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+.photo-swiper {
+      width: 450px;
+      height: 550px;
+      overflow-x: hidden;
+      margin-left: 60px;
+    }
+
+    .photo-swiper .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: none !important;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .photo-swiper img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .text-swiper {
+      flex: 1;
+      max-width: 400px;
+     margin-left: 60px;
+      /* min-height: 300px; */
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .text-swiper .swiper-slide {
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .text-swiper .swiper-slide-active {
+      opacity: 1;
+    }
+
+    .text-content h3 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+      color: #FFBB01 100%;
+    }
+
+    .text-content p {
+      font-size: 20px;
+      line-height: 1.4em;
+      color: #fff;
+    }
+
+    /* Навигация */
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #FFBB01 100%;
+    }
+
+.projects {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+ .projects-slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*
+.project-text {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-title {
+    flex-basis: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 41px;
+}
+.project-time, .project-cost {
+    flex-basis: 50%;
+    margin-bottom: 44px;
+}
+.project-time, .project-cost, .project-feedback {
+    display: flex;
+    align-items: flex-start;
+}
+.project-subtitle {
+    margin: 0;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.project-paragraph {
+    margin: 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+.project-icon {
+    margin-right: 16px;
+} */
+
+.contacst-form {
+    background: #fff;
+    box-shadow: -5px 5px 0px #FFC41D;
+    border-radius: 5px;
+    max-width: 380px;
+    padding-top: 40px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 49px;
+}
+.form-title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000;
+    margin: 0;
+    margin-bottom: 29px;
+}
+.input {
+    background: #F8F8F8;
+    border: none;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    padding: 18px 20px;
+    padding-left: 50px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 28px;
+}
+.input-name {
+    margin-bottom: 17px;
+    background-image: url(foto/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+.input-phone {
+    margin-bottom: 17px;
+    background-image: url(foto/phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center left 20px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 17px;
+}
+.input-PP {
+    width: 15px;
+    height: 15px;
+}
+.PP {
+    display: flex;
+    color: #55555a;
+    margin-left: 10px;
+   
+    
+}
+.form-button {
+    width: 100%;
+}
+.contacts-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts-text {
+    flex-basis: 50%;
+}
+.contacts-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 42px;
+}
+.contacts-phone, .contacts-mail {
+    flex-basis: 50%;
+    margin-bottom: 53px;
+}
+.contacts-social {
+    flex-basis: 100%;
+}
+.contacts-title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.contacts-link {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 37px;
+}
+.contacts-link:hover {
+    text-decoration: underline;
+} 
+.contacts-policy {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #A5A5A5;
+    margin-top: 72px;
+}
+
+

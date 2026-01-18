@@ -1,0 +1,150 @@
+@media (max-width: 1100px) {
+    .hero-avatar {
+        width: 300px;
+        height: 300px;
+        border-width: 10px;
+        background-size: 280px 280px;
+    }
+    
+}
+@media (max-width: 980px) {
+    .section-title {
+        text-align: center;
+    }
+    
+    .photo-swiper {
+        width: 400px;
+        height: 500px;
+    }
+    .contacts-block {
+        gap: 30px;
+    }
+}
+@media (max-width: 836px) {
+    .hero-content {
+        flex-direction: column;
+    }
+    .hero-avatar {
+        order: 0;
+        width: 300px;
+        height: 300px;
+        border-width: 10px;
+        background-size: cover;
+        margin-bottom: 17px;
+    }
+    .hero-text {
+        order: 1;
+        text-align: center;
+    }
+    .features-item {
+    flex-basis: 45%;
+    }
+    .swiper {
+        margin-left: auto;
+    }
+    .projects-slide {
+        flex-direction: column;
+    }
+    .photo-swiper {
+        margin-bottom: 46px;
+    }
+    .contacts-block {
+       
+        flex-direction: column;
+    }
+    .contacts-text {
+        text-align: center;
+    }
+    .contacst-form {
+        margin-bottom: 58px;
+    }
+}
+@media (max-width: 564px) {
+    .hero {
+        padding-bottom: 75px;
+    }
+    .hero-avatar {
+        width: 200px;
+        height: 200px;
+        border-width: 4px;
+        background-size: cover;
+    }
+    .hero-header{
+        margin-bottom: 38px;
+    }
+    .social-link {
+        margin-left: 5px;
+    }
+    .hero-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .hero-description {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .section {
+        padding: 60px 0;
+    }
+    .section-title {
+        font-size: 19px;
+        line-height: 22px;
+        margin-bottom: 60px;
+    }
+    .features-item {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .features-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .features-text {
+        font-size: 14px;
+        line-height: 28px;
+    }
+     .photo-swiper {
+        width: 300px;
+        height: 400px;
+    }
+    .text-swiper {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contacst-form {
+        padding: 40px 19px;
+    }
+    .form-title {
+        font-size: 15px;
+        line-height: 140%;
+    }
+    .form-button {
+        font-size: 10px;
+    }
+    .contacts-phone, .contacts-mail {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .contacts-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .contacts-link {
+        font-size: 14px;
+        line-height: 16px;
+        display: block;
+        margin-bottom: 13px;
+    }
+}
+@media (max-width: 430px) {
+      .photo-swiper {
+        width: 200px;
+        height: 300px;
+    }
+}
